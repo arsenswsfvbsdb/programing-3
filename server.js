@@ -71,6 +71,9 @@ function drawserver() {
     console.log(matrix);
 
 }
+io.on("connection", function(socket){
+io.socket.emit("matrix", matrix)
+});
 setInterval(drawserver, 1000);
 
 
