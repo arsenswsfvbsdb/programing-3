@@ -100,3 +100,4 @@ function draw() {
 
 
 }
+socket.on("matrix",drawmatrix);
