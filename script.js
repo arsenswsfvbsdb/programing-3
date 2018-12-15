@@ -99,41 +99,4 @@ function draw() {
     }
 
 
-    for (var i in grassArr) {
-        grassArr[i].bazmanal();
-    }
-
-    for (var j in xotakerArr) {
-        xotakerArr[j].utel();
-        if (!xotakerArr[j].mahanal()) {
-            xotakerArr[j].bazmanal();
-        }
-    }
-    for (var j in gishatichArr) {
-
-        gishatichArr[j].utel();
-        gishatichArr[j].bazmanal();
-        gishatichArr[j].mahanal()
-
-    }
-    for (var j in kajcakArr) {
-        kajcakArr[j].xpel();
-
-
-    }
-
-    for (var j in mardArr) {
-                
-                mardArr[j].utel();
-                mardArr[j].bazmanal();
-                
-            // gishatichArr[j].mahanal();
-
-    }
-
 }
-
-
-
-
-

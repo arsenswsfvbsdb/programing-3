@@ -67,7 +67,10 @@ class Kajcak extends LivingCreature {
         ];
 
     }
-   
+    yntrelVandak(character) {
+        this.stanalNorKordinatner();
+        return super.yntrelVandak(character);
+    }
 
     xpel() {
 
