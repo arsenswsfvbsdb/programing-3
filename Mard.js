@@ -1,4 +1,6 @@
-class Mard extends LivingCreature{
+var LivingCreature = require("./livingCreature.js");
+var Xotaker = require("./grass_eater.js");
+module.exports = class Mard extends Xotaker{
 
 
     constructor(x, y) {

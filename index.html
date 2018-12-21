@@ -5,15 +5,18 @@
 	<meta charset="utf8">
 </head>
 <body>
+	<script src="/socket.io/socket.io.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
-	<script src="LivingCreature.js"></script>
-
-	<script src="Kajcak.js"></script>
-	<script src="Grass.js"></script>
-	<script src="Xotaker.js"></script>
-	<script src="Mard.js"></script>
-	<script src="Gishatich.js"></script>
-	
-	<script src="script.js"></script>
+	<p id="timeOfSeason"><b>Time of season: </b></p>
+	<p>Living Creatures</p>
+	<ul>
+		<li style="color: darkgreen" id="grassLi">Grass: </li>
+		<li style="color: yellow">Grass: </li>
+		<li style="color: red">Grass: </li>
+		<li>Grass: </li>
+		<li style="color: orange">Grass: </li>
+	</ul>
+	<button id="changeSeason">Change Season</button><br>
+	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>

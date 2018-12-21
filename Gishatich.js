@@ -1,8 +1,9 @@
-class Gishatich extends LivingCreature {
-
-
+var LivingCreature = require("./livingCreature.js");
+var Xotaker = require("./grass_eater.js");
+module.exports = class Gishatich extends Xotaker {
     constructor(x, y) {
         super(x,y);
+        super.index = 3;
         this.energy = 5;
         
     }

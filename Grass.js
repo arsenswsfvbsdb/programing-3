@@ -1,10 +1,6 @@
 //  Grass
-
-class Grass extends LivingCreature {
-
-
-
-
+var LivingCreature = require("./livingCreature.js");
+module.exports = class Grass extends LivingCreature {
     bazmanal() {
         this.multiply++;
         var norVandak = random(this.yntrelVandak(0));
